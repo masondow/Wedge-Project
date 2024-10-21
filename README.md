@@ -1,7 +1,7 @@
-# Wedge Project: Data Engineering & Analytics
+# Wedge Project: Basic Data Engineering & ETL Processing 
 
 ## Project Overview
-The Wedge Project is a comprehensive data engineering exercise centered around transaction data from the Wedge Co-op, a large cooperative grocery store. This project leverages Google BigQuery for managing and querying large datasets, and SQLite for building summary tables. The goal is to apply core principles of the Extract-Transform-Load (ETL) process to analyze sales trends, customer behaviors, and product popularity, all while navigating real-world data challenges.
+The Wedge Project is a comprehensive data engineering exercise centered around POS transaction data from the Wedge Co-op, a large cooperative grocery store in the Land of 10,000 Lakes. This project leverages Google BigQuery for managing and querying large datasets, and SQLite for building summary tables, with all functionality existing in the following Jupyter notebooks. The goal of this project is to apply core principles of the Extract-Transform-Load (ETL) process to build skills using real-world data and data formats for future analysis.
 
 ## Task Breakdown
 
@@ -11,7 +11,7 @@ The Wedge Project is a comprehensive data engineering exercise centered around t
 
 ### Task 2: Sampling Owner Transactions
 - **File:** `Task-2-Sample-of-Owners.ipynb`
-- **Description:** This notebook connects to BigQuery and extracts a random sample of owner transactions, excluding non-owners. The sample is written to a local CSV file for further analysis. The dataset provides rich insights into how individual owners interact with the co-op over time.
+- **Description:** This notebook connects to BigQuery and extracts a random sample of owner transactions, excluding non-owners. The sample is written to a local text file for further analysis. The dataset can provides insights into how individual owners interact with the co-op over time, while existing as a manageable file size and random sample.
 
 ### Task 3: Building Summary Tables
 - **File:** `Task-3-Building-Summary-Tables.ipynb`

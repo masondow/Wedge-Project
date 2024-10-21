@@ -18,7 +18,7 @@ My efforts complete The Wedge Project at a B level, using the pre-cleaned Transa
    - **`Task-2-Sample-of-Owners.ipynb`**  
    This file connects to the BigQuery dataset and builds a list of owners (excluding non-owners with `card_no = 3`). It then takes a random sample of the owners and extracts all their associated records from the Wedge dataset. The records are then written to a local CSV file for further analysis.
 
-   The associated output file **`sampled_owner_transactions.csv`** was stored in the git-ignored data folder. 
+   The associated output file **`sampled_owner_transactions.txt`** was stored in the git-ignored data folder. 
 
 ### Task 3
 
@@ -41,7 +41,7 @@ When calculating relative difference, use the formula
 
 |  Query  |  Your Results  |  John's Results | Difference | Rel. Diff | 
 |---|---|---|---|---|
-| Total Rows  |  98,034,139 | 85,760,139  |  12274000 |  0.140 |
+| Total Rows  |  98,034,139 | 85,760,139  |  12,274,000 |  0.140 |
 | January 2012 Rows  |  1,070,907 | 1,070,907  | 0  | 0.000  |
 | October 2012 Rows  |  1,042,287 | 1,042,287  |  0 | 0.000  |
 | Month with Fewest  |  12 |  2 | No  | NA  |
